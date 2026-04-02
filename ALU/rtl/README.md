@@ -96,6 +96,6 @@ This RTL is used as a DUT for:
 
 ## Author
 
-**Venkata Sriram Kamarajugadda**
-Master’s in Electrical & Computer Engineering
-Portland State University
+**Venkata Sriram Kamarajugadda**  
+Master’s in Electrical & Computer Engineering  
+Portland State University  
