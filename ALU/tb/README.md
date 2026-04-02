@@ -125,18 +125,6 @@ Planned enhancements include:
 
 ---
 
-## Simulation
-
-Example using QuestaSim:
-
-```
-vlog -sv +incdir+tb tb/alu_pkg.sv
-vsim work.top +UVM_TESTNAME=alu_test
-run -all
-```
-
----
-
 ## Files
 
 ```
