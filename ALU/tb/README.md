@@ -9,7 +9,7 @@ The testbench follows standard UVM architecture and is designed to validate func
 ## UVM Testbench Architecture
 
 <p align="center">
-  <img src="../images/uvm_tb_architecture.png" width="800">
+  <img src="../images/uvm_tb_architecture.jpeg" width="800">
 </p>
 
 ---
