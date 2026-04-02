@@ -114,7 +114,7 @@ Inputs at cycle N → Output at cycle N+1
 
 ---
 
-## Functional Coverage (Planned 🚧)
+## Functional Coverage (Planned)
 
 Planned enhancements include:
 
