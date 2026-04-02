@@ -1,4 +1,4 @@
-# 🧩 ALU RTL Design
+# ALU RTL Design
 
 This directory contains the RTL implementation of an 8-bit Arithmetic Logic Unit (ALU).
 
@@ -6,13 +6,13 @@ The design is written in Verilog and serves as the Device Under Test (DUT) for U
 
 ---
 
-## 📌 Overview
+## Overview
 
 The ALU performs basic arithmetic operations based on a 4-bit control signal (`alu_sel`).
 
 ---
 
-## 🖼️ DUT Architecture
+## DUT Architecture
 
 <p align="center">
   <img src="../images/alu_dut.png" width="500">
@@ -20,7 +20,7 @@ The ALU performs basic arithmetic operations based on a 4-bit control signal (`a
 
 ---
 
-## ⚙️ Supported Operations
+## Supported Operations
 
 | Opcode | Operation        |
 |--------|------------------|
@@ -32,7 +32,7 @@ The ALU performs basic arithmetic operations based on a 4-bit control signal (`a
 
 ---
 
-## 📥 Inputs
+## Inputs
 
 - `clock`   : System clock  
 - `reset`   : Active-high reset  
@@ -42,14 +42,14 @@ The ALU performs basic arithmetic operations based on a 4-bit control signal (`a
 
 ---
 
-## 📤 Outputs
+## Outputs
 
 - `alu_out`  : 8-bit result  
 - `carryout` : Carry flag (valid for addition)  
 
 ---
 
-## 🧠 Design Details
+## Design Details
 
 - The ALU is a **synchronous design**
 - Output is **registered on the clock edge**
@@ -58,7 +58,7 @@ The ALU performs basic arithmetic operations based on a 4-bit control signal (`a
 
 ---
 
-## 🔄 Timing Behavior
+## Timing Behavior
 
 - Inputs are sampled at the clock edge  
 - Output is produced after **1 clock cycle delay**  
@@ -69,7 +69,7 @@ Inputs at cycle N → Output at cycle N+1
 
 ---
 
-## 📁 File
+## File
 
 ```
 alu.v
@@ -77,7 +77,7 @@ alu.v
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 - Division operation does not include divide-by-zero protection
 - Carry flag is only meaningful for addition
@@ -85,7 +85,7 @@ alu.v
 
 ---
 
-## 🚀 Purpose
+## Purpose
 
 This RTL is used as a DUT for:
 - UVM-based functional verification
@@ -94,6 +94,8 @@ This RTL is used as a DUT for:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Venkata Sriram Kamarajugadda**
+Master’s in Electrical & Computer Engineering
+Portland State University
