@@ -62,7 +62,7 @@ The ALU supports the following operations:
 ## UVM Testbench Architecture
 
 <p align="center">
-  <img src="./images/uvm_tb_architecture.png" width="800">
+  <img src="./images/uvm_tb_architecture.jpeg" width="800">
 </p>
 
 ### Flow
