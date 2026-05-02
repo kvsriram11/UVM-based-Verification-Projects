@@ -1,0 +1,90 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /tb_pkg
+=== Design Unit: work.tb_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          3        na        na        na
+            Covergroup Bins         15        15         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /tb_pkg/mtx_scoreboard/cg_values                100.00%        100          -    Covered              
+    covered/total bins:                                    15         15          -                      
+    missing/total bins:                                     0         15          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_a                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                           96          1          -    Covered              
+        bin one                                            56          1          -    Covered              
+        bin ff                                             82          1          -    Covered              
+    Coverpoint cp_b                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                          103          1          -    Covered              
+        bin one                                            78          1          -    Covered              
+        bin ff                                             72          1          -    Covered              
+    Cross cross_ab                                    100.00%        100          -    Covered              
+        covered/total bins:                                 9          9          -                      
+        missing/total bins:                                 0          9          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <ff,ff>                                    27          1          -    Covered              
+            bin <one,ff>                                   18          1          -    Covered              
+            bin <zero,ff>                                  15          1          -    Covered              
+            bin <ff,one>                                   27          1          -    Covered              
+            bin <one,one>                                  18          1          -    Covered              
+            bin <zero,one>                                 27          1          -    Covered              
+            bin <ff,zero>                                  18          1          -    Covered              
+            bin <one,zero>                                 19          1          -    Covered              
+            bin <zero,zero>                                45          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /tb_pkg/mtx_scoreboard/cg_values                100.00%        100          -    Covered              
+    covered/total bins:                                    15         15          -                      
+    missing/total bins:                                     0         15          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_a                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                           96          1          -    Covered              
+        bin one                                            56          1          -    Covered              
+        bin ff                                             82          1          -    Covered              
+    Coverpoint cp_b                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                          103          1          -    Covered              
+        bin one                                            78          1          -    Covered              
+        bin ff                                             72          1          -    Covered              
+    Cross cross_ab                                    100.00%        100          -    Covered              
+        covered/total bins:                                 9          9          -                      
+        missing/total bins:                                 0          9          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <ff,ff>                                    27          1          -    Covered              
+            bin <one,ff>                                   18          1          -    Covered              
+            bin <zero,ff>                                  15          1          -    Covered              
+            bin <ff,one>                                   27          1          -    Covered              
+            bin <one,one>                                  18          1          -    Covered              
+            bin <zero,one>                                 27          1          -    Covered              
+            bin <ff,zero>                                  18          1          -    Covered              
+            bin <one,zero>                                 19          1          -    Covered              
+            bin <zero,zero>                                45          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 100.00%
+
